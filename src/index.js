@@ -3,8 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './MemoOrnek';
 import UMemo from './UMemo';
+import Kullanicilar from './Kullanicilar';
+import Yazilar from './Yazilar';
+import Yorumlar from './Yorumlar.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <UMemo />
+    <>
+        <Kullanicilar />
+        <Yazilar />
+        <Yorumlar />
+    </>
 );
