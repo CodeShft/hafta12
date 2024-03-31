@@ -24,16 +24,6 @@ function useVeriCek(url) {
         veriIslem()
     }, [url])
 
-    useEffect(()=>{
-
-    }, [])
-
-    
-
-    useEffect(()=>{
-
-    }, [])
-
     return {veri, yukleniyor, hata}
 }
 
